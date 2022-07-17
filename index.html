@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Convertirdor a Romanos</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css'>
+</head>
+<body class="bg-dark">
+<div class="containter-fluid">
+<div style="margin: 0 auto">
+    <h1 class="text-center" style="color:#f8f8f8">Convertirdor a Números Romanos</h1>
+    <p class="text-center text-muted" style="color:#f8f8f8">By. David Morales. MMXXII</p>
+</div>
+<div style="margin-top: 100px; margin-right: auto; margin-left: auto;" class="col-md-4 text-center">
+    <form action="" id="form">
+    <label for="numero" style="color:#f8f8f8">Ingrese el numero que desea convertir<br/>(entre 1 y 3999)</label><br /><br />
+        <div style="margin-right: auto; margin-left: auto;" class="col-md-3 text-center">
+    <input type="number" min="1" max="3500" id="numero" class="form-control" size="1"/></div><br /><br />
+    <button id="convertir" class="bg-secondary">Convertir</button>
+    </form>
+</div>
+
+<div style="margin-top: 70px; margin-left: 35%; margin-right: 35%; height: 55px;" class="text-center border border-secondary">
+    <h1 id="resultado" style="color:#f8f8f8"> </h1>
+</div>
+
+</div>
+    <script src='./js/convertidor.js'></script>
+</body>
+</html>
